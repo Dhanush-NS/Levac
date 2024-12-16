@@ -105,6 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+LOGIN_URL = 'mainpage'  # URL to redirect if user is not logged in
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
