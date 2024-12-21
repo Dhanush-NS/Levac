@@ -105,7 +105,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-LOGIN_URL = 'mainpage'  # URL to redirect if user is not logged in
+LOGIN_URL = 'login'  # URL to redirect if user is not logged in
 
 
 # Internationalization
