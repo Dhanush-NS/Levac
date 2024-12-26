@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Logincred',
+        'NAME': 'Lc',
         'USERNAME':"root",
         "PASSWORD":"root",
         "HOST":"localhost",
