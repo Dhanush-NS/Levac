@@ -50,6 +50,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+AUTHENTICATION_BACKENDS = [
+    'app.authentication.EmailBackend',  # Replace 'myapp' with your app name
+    'django.contrib.auth.backends.ModelBackend',  # This is the default backend
+]
+
 
 ROOT_URLCONF = 'project.urls'
 
