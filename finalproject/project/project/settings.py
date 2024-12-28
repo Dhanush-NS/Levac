@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 AUTHENTICATION_BACKENDS = [
-    'app.authentication.EmailBackend',  # Replace 'myapp' with your app name
+    'app.authentication.EmailOrUsernameBackend',  # Replace 'myapp' with your app name
     'django.contrib.auth.backends.ModelBackend',  # This is the default backend
 ]
 
