@@ -50,10 +50,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-AUTHENTICATION_BACKENDS = [
-    'app.authentication.EmailOrUsernameBackend',  # Replace 'myapp' with your app name
-    'django.contrib.auth.backends.ModelBackend',  # This is the default backend
-]
+
 
 
 ROOT_URLCONF = 'project.urls'
@@ -83,7 +80,7 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Lc',
+        'NAME': 'cl',
         'USERNAME':"root",
         "PASSWORD":"root",
         "HOST":"localhost",
@@ -146,4 +143,3 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
 # Prevent session data from being cached
 SESSION_CACHE_ALIAS = 'default'
-
