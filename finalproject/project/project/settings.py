@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 import os
 
+#Google Gemini api key
+GOOGLE_GENAI_API_KEY = os.getenv('GOOGLE_GENAI_API_KEY', 'YOUR_API_KEY_HERE')
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
