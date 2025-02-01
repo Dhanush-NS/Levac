@@ -14,7 +14,7 @@ from pathlib import Path
 import os
 
 #Google Gemini api key
-GOOGLE_GENAI_API_KEY = os.getenv('GOOGLE_GENAI_API_KEY', 'AIzaSyBDUeaI1_qv1hwNZhXA_xiU2veVzfYZDas')
+GOOGLE_GENAI_API_KEY = os.getenv('GOOGLE_GENAI_API_KEY', '')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
